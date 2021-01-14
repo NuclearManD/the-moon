@@ -1,0 +1,29 @@
+{
+	"TODO" : "Improve the standard deviations and means",
+	"coins": [
+		{
+			"name" : "BTC",
+			"marketCap" : 710,
+			"futureCap" : 10000,
+			"standardDeviation" : 2000
+		},
+		{
+			"name" : "ETH",
+			"marketCap" : 127,
+			"futureCap" : 10000,
+			"standardDeviation" : 2000
+		},
+		{
+			"name" : "LINK",
+			"marketCap" : 6,
+			"futureCap" : 1000,
+			"standardDeviation" : 200
+		},
+		{
+			"name" : "ADA",
+			"marketCap" : 9,
+			"futureCap" : 10000,
+			"standardDeviation" : 2000
+		}
+	]
+}
