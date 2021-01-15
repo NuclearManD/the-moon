@@ -24,7 +24,7 @@
 			"marketCap" : 9,
 			"futureCap" : 10000,
 			"standardDeviation" : 2000
-		}
+		},
 		{
 			"name": "DOT",
 			"marketCap" : 8,
