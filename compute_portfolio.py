@@ -231,4 +231,3 @@ while True:
 
     print("Probability of success: " + str(round(goalProbabilityPercent(portfolio), 1)) + '%')
 
-
