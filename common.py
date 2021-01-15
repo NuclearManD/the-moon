@@ -7,6 +7,10 @@ def normpdf(x, mean, sd):
     num = math.exp(-(float(x)-float(mean))**2/(2*var))
     return num/denom
 
+# https://stackoverflow.com/a/3525548/3059148
+def normcdf(x, mean, sd):
+    return 0.5 * (1 + math.erf((x - mean) / math.sqrt(2 * sd**2)))
+
 def input_float(msg):
     inp = input(msg).replace('$', '').upper()
     mul = 1
