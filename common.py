@@ -26,3 +26,7 @@ def input_float(msg):
         return float(inp)
 
     return float(inp[:-1]) * mul
+
+def portfolio_func(coin, curnt_mk_cap, fut_mk_cap, growth): #growth (percent/yr)
+    coin = coin.upper()
+    
